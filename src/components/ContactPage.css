@@ -1,0 +1,73 @@
+.contact-grid {
+    display: flex;
+    flex-direction: column;
+    /* Stacks cards in a vertical column */
+    align-items: center;
+    /* Aligns cards to the right */
+    gap: 20px;
+    padding: 40px;
+    max-width: 700px;
+    width: 100%;
+    /* margin-right: auto;
+margin-left: auto; */
+    overflow-x: hidden;
+    position: relative;
+    justify-content: center;
+    /* Ensures no horizontal overflow */
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+.Whatsapp-button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #25D366;
+    /* WhatsApp green */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    /* Rounded button */
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.Instagram-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #d20f70;
+    /* WhatsApp green */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    /* Rounded button */
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Instagram-button:hover {
+    transform: scale(1.2)
+}
+
+.Whatsapp-button:hover {
+    background-color: #1EBE57;
+    /* Slightly darker green */
+    transform: scale(1.2);
+    /* Slight hover scaling */
+}
+
+.whatsapp-icon {
+    font-size: 20px;
+    /* Adjust icon size */
+}
